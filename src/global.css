@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container_input {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.nome_usuario {
+    padding: 8px 24px;
+    margin: 16px 0;
+    border: none;
+    border-bottom: 1px solid var(--corSecundaria);
+    box-shadow: 0px 0px 13px;
+}
+
+:root {
+    --corPrincipal: darkgrey;
+    --corSecundaria: #111;
+}
